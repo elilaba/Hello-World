@@ -1,0 +1,32 @@
+{
+  "site": {
+    "name": "Alex Moreau",
+    "role": "Director of Photography",
+    "location": "Vancouver, BC",
+    "intro": "I shoot narrative films, music videos and commercials, with a taste for practical light and slow, deliberate camera moves.",
+    "heroImage": "images/hero.jpg",
+    "reel": "https://vimeo.com/",
+    "about": [
+      "Replace this with two or three sentences about how you work: the kinds of stories you’re drawn to, how you collaborate with directors, and what you’re known for on set.",
+      "Mention your background, any festival screenings or awards, and whether you travel for work."
+    ],
+    "kit": {
+      "Cameras": "ARRI Alexa Mini LF, RED Komodo, Sony FX6",
+      "Lenses": "Cooke S4/i, Zeiss Supreme Primes, Atlas Orion anamorphics",
+      "Formats": "16mm and 35mm film on request",
+      "Festivals": "Add your selections here",
+      "Representation": "Independent"
+    },
+    "availability": "Available for projects from January.",
+    "email": "hello@example.com",
+    "instagram": "https://instagram.com/",
+    "vimeo": "https://vimeo.com/"
+  },
+  "projects": [
+    { "title": "Salt Line", "year": 2026, "role": "Feature, DoP", "tech": "Alexa Mini LF, Cooke S4/i", "ar": 2.39, "wide": true, "image": "images/salt-line.jpg", "link": "https://vimeo.com/" },
+    { "title": "Heavy Water", "year": 2025, "role": "Short film, DoP", "tech": "Alexa 35, Atlas Orion", "ar": 2.0, "image": "images/heavy-water.jpg", "link": "https://vimeo.com/" },
+    { "title": "Night Shift", "year": 2025, "role": "Music video, DoP", "tech": "RED Komodo, vintage Nikkors", "ar": 1.78, "image": "images/night-shift.jpg", "link": "https://vimeo.com/" },
+    { "title": "Harbour", "year": 2024, "role": "Commercial, DoP", "tech": "Sony FX6, Zeiss Supremes", "ar": 1.78, "image": "images/harbour.jpg", "link": "https://vimeo.com/" },
+    { "title": "The Long Winter", "year": 2024, "role": "Documentary, DoP", "tech": "Alexa Mini, handheld", "ar": 2.39, "wide": true, "image": "images/the-long-winter.jpg", "link": "https://vimeo.com/" }
+  ]
+}

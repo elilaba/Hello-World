@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cinematography Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#e8eaed; --ink:#14181d; --mute:#5a636e; --line:#c4c9d0; --accent:#a8641a;
+  --serif:"Instrument Serif",Georgia,"Times New Roman",serif; --sans:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#101419; --ink:#e9e6df; --mute:#98a1ac; --line:#262d36; --accent:#e8a24a}
+}
+:root[data-theme="dark"]{--bg:#101419; --ink:#e9e6df; --mute:#98a1ac; --line:#262d36; --accent:#e8a24a}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.6 var(--sans)}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 clamp(1.25rem,4vw,2.5rem)}
+nav{display:flex;justify-content:space-between;align-items:baseline;padding:1.5rem 0}
+nav .links{display:flex;gap:1.75rem;font-size:.95rem}
+nav a{text-decoration:none;color:var(--mute)}
+nav a:hover{color:var(--ink)}
+nav a.me{font-family:var(--serif);font-size:1.35rem;color:var(--ink)}
+
+.frame{position:relative;aspect-ratio:2.39/1;overflow:hidden;background-size:cover;background-position:center;border-radius:2px}
+.frame::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.55),transparent 55%)}
+.work .frame::after{background:linear-gradient(to top,rgba(0,0,0,.25),transparent 40%)}
+.hero .frame{min-height:300px;animation:open 1.4s cubic-bezier(.2,.7,.2,1) both}
+@keyframes open{from{clip-path:inset(32% 0 32% 0)}to{clip-path:inset(0)}}
+.hero h1{position:absolute;z-index:2;left:clamp(1rem,3vw,2.5rem);bottom:clamp(1rem,3vw,2rem);margin:0;font:400 clamp(2.6rem,8vw,6.5rem)/.95 var(--serif);color:#f3efe6;letter-spacing:-.01em}
+.hero .role{position:absolute;z-index:2;right:clamp(1rem,3vw,2.5rem);bottom:clamp(1rem,3vw,2rem);color:#e9e6df;font-size:.95rem;text-align:right}
+.intro{display:grid;grid-template-columns:1.3fr 1fr;gap:3rem;padding:3.5rem 0 4rem;align-items:start}
+.intro p{margin:0;font:400 clamp(1.4rem,2.6vw,2rem)/1.3 var(--serif);max-width:28em}
+.intro .cta{justify-self:end;display:flex;gap:.75rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.7rem 1.25rem;border:1px solid var(--ink);border-radius:999px;text-decoration:none;font-weight:500;font-size:.95rem}
+.btn.solid{background:var(--ink);color:var(--bg)}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.solid:hover{background:var(--accent);color:var(--bg)}
+
+h2{font:400 clamp(1.8rem,3.5vw,2.6rem)/1.1 var(--serif);margin:0 0 2rem}
+.work{display:grid;grid-template-columns:repeat(2,1fr);gap:3rem 2rem;padding-bottom:5rem}
+.work .wide{grid-column:1/-1}
+.work a{text-decoration:none;display:block}
+.work .frame{transition:transform .35s ease}
+.work a:hover .frame{transform:scale(.985)}
+.work h3{margin:.9rem 0 .15rem;font:400 1.6rem/1.2 var(--serif)}
+.work h3 span{color:var(--mute);font-size:1rem}
+.work .meta{margin:0;color:var(--mute);font-size:.92rem}
+.work .ar{display:inline-block;margin-right:.6rem;color:var(--accent);font-weight:500}
+
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:3rem;padding:3rem 0 5rem;border-top:1px solid var(--line)}
+.cols p{margin:0 0 1rem;max-width:34em;font-family:var(--serif);font-size:1.2rem;line-height:1.55}
+dl{margin:0;display:grid;grid-template-columns:8.5rem 1fr;gap:.7rem 1rem;font-size:.95rem}
+dt{color:var(--mute)} dd{margin:0}
+.contact{border-top:1px solid var(--line);padding:3rem 0 4rem;display:flex;justify-content:space-between;gap:2rem;flex-wrap:wrap;align-items:end}
+.contact a.big{font:400 clamp(1.8rem,5vw,3.4rem)/1.1 var(--serif);text-decoration-thickness:1px;text-underline-offset:.2em}
+.contact small{color:var(--mute)}
+@media (max-width:760px){
+  .intro,.cols{grid-template-columns:1fr;gap:1.75rem}
+  .intro .cta{justify-self:start}
+  .work{grid-template-columns:1fr}
+  .hero .role{display:none}
+  nav .links{gap:1rem}
+}
+@media (prefers-reduced-motion:reduce){.hero .frame{animation:none}.work .frame{transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="me" href="#top" id="navName"></a>
+    <div class="links"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="frame" id="heroFrame" role="img" aria-label="Featured still">
+      <h1 id="heroName"></h1>
+      <div class="role" id="heroRole"></div>
+    </div>
+  </header>
+
+  <section class="intro">
+    <p id="intro"></p>
+    <div class="cta">
+      <a class="btn solid" id="reel" href="#" target="_blank" rel="noopener">Watch the reel</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+  </section>
+
+  <section id="work" aria-labelledby="wt">
+    <h2 id="wt">Selected work</h2>
+    <div class="work" id="grid"></div>
+  </section>
+
+  <section class="cols" id="about">
+    <div><h2>About</h2><div id="about-text"></div></div>
+    <div><h2>Kit and credits</h2><dl id="kit"></dl></div>
+  </section>
+
+  <footer class="contact" id="contact">
+    <div>
+      <p style="margin:0 0 .5rem" id="avail"></p>
+      <a class="big" id="email" href="#"></a>
+    </div>
+    <small><span id="copy"></span> &nbsp; <a id="ig" href="#" target="_blank" rel="noopener">Instagram</a> &nbsp; <a id="vm" href="#" target="_blank" rel="noopener">Vimeo</a></small>
+  </footer>
+</div>
+
+<script>
+// All content lives in projects.json. You should not need to edit this file.
+var fallbacks = [
+  "radial-gradient(50% 80% at 25% 55%,#e9b06a,transparent 60%),linear-gradient(120deg,#1a2b33,#38535a 60%,#6b7d78)",
+  "radial-gradient(45% 70% at 70% 30%,#7fb3c8,transparent 65%),linear-gradient(160deg,#0b1620,#1d3a4c)",
+  "radial-gradient(40% 60% at 50% 70%,#d9577a,transparent 65%),linear-gradient(180deg,#140c1c,#2c1a38)",
+  "radial-gradient(60% 60% at 30% 30%,#f2d9a0,transparent 60%),linear-gradient(140deg,#3a5568,#8aa0ac)"
+];
+var heroFallback = "radial-gradient(60% 90% at 78% 40%,#f0b562 0%,#b5662a 22%,transparent 60%),linear-gradient(100deg,#0d1822 0%,#1c3347 55%,#2a4a5f 100%)";
+
+function el(tag, text, cls){ var e = document.createElement(tag); if (text) e.textContent = text; if (cls) e.className = cls; return e; }
+function setImage(frame, src, fallback){
+  frame.style.backgroundImage = fallback;
+  if (!src) return;
+  var img = new Image();
+  img.onload = function(){ frame.style.backgroundImage = "url('" + src + "')"; };
+  img.src = src;
+}
+function setLink(id, url){ var a = document.getElementById(id); if (url) a.href = url; else a.style.display = "none"; }
+
+fetch("projects.json").then(function(r){ return r.json(); }).then(function(d){
+  var s = d.site || {};
+  document.title = (s.name || "Portfolio") + " — " + (s.role || "Cinematographer");
+  document.getElementById("navName").textContent = s.name || "";
+  document.getElementById("heroName").textContent = s.name || "";
+  document.getElementById("heroRole").innerHTML = "";
+  document.getElementById("heroRole").append(s.role || "", el("br"), s.location || "");
+  document.getElementById("intro").textContent = s.intro || "";
+  setImage(document.getElementById("heroFrame"), s.heroImage, heroFallback);
+  setLink("reel", s.reel);
+
+  var grid = document.getElementById("grid");
+  (d.projects || []).forEach(function(p, i){
+    var a = el("a"); a.href = p.link || "#"; a.target = "_blank"; a.rel = "noopener";
+    if (p.wide) a.className = "wide";
+    var f = el("div", "", "frame");
+    f.style.aspectRatio = (p.ar || 1.78) + " / 1";
+    f.setAttribute("role", "img"); f.setAttribute("aria-label", "Still from " + p.title);
+    setImage(f, p.image, fallbacks[i % fallbacks.length]);
+    var h = el("h3", p.title + " "); h.appendChild(el("span", p.year || ""));
+    var m = el("p", "", "meta");
+    m.append(el("span", (p.ar || 1.78).toFixed(2) + ":1", "ar"), (p.role || "") + (p.tech ? ", " + p.tech : ""));
+    a.append(f, h, m); grid.appendChild(a);
+  });
+
+  var about = document.getElementById("about-text");
+  (s.about || []).forEach(function(t){ about.appendChild(el("p", t)); });
+  var kit = document.getElementById("kit");
+  Object.keys(s.kit || {}).forEach(function(k){ kit.append(el("dt", k), el("dd", s.kit[k])); });
+
+  document.getElementById("avail").textContent = s.availability || "";
+  var em = document.getElementById("email"); em.textContent = s.email || ""; em.href = "mailto:" + (s.email || "");
+  setLink("ig", s.instagram); setLink("vm", s.vimeo);
+  document.getElementById("copy").textContent = "© " + new Date().getFullYear() + " " + (s.name || "");
+}).catch(function(){
+  document.getElementById("intro").textContent = "Could not load projects.json. Check that the file is in the same folder as index.html and that its JSON is valid.";
+});
+</script>
+</body>
+</html>
