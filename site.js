@@ -13,7 +13,7 @@ function reveal(){var n=document.querySelectorAll(".reveal");if(reduced||!window
 var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");o.unobserve(e.target)}})},{rootMargin:"0px 0px -12% 0px",threshold:.05});n.forEach(function(x){o.observe(x)})}
 function chrome(name){var n=$("nav"),w=el("div","","in"),l=el("div","","links");
 [["Work","index.html#work"],["About","about.html"],["Contact","contact.html"]].forEach(function(x){var a=link(x[0],x[1]);if(location.pathname.slice(-x[1].length)===x[1])a.setAttribute("aria-current","page");l.append(a)});
-w.append(link(name,"index.html","me"),l);n.append(w);if(page!=="home")n.classList.add("show");
+w.append(link(name,"index.html","me"),l);n.append(w);n.classList.add("show");
 $("foot").textContent="© "+new Date().getFullYear()+" "+name}
 function home(d){var s=d.site,o=$("top"),r=$("reel"),n=$("nav"),t=0;
 $("name").textContent=s.name;$("role").textContent=s.role;reel(r,s.reel);
@@ -21,7 +21,7 @@ var g=$("grid");d.projects.forEach(function(p,i){var a=link("","project.html?p="
 f.style.aspectRatio=(p.ar||1.78)+" / 1";f.setAttribute("role","img");f.setAttribute("aria-label","Still from "+p.title);bg(f,p.image,i);
 var h=el("h3",p.title+" ");h.append(el("span",p.year||""));a.append(f,h,el("p",p.role||"","meta"));g.append(a)});
 function up(){t=0;var b=r.getBoundingClientRect().bottom,v=innerHeight,s0=v*.55,e0=v*.05;
-var k=reduced?(b<e0?1:0):Math.min(1,Math.max(0,(s0-b)/(s0-e0)));if(!reduced)o.style.opacity=1-k;o.style.visibility=k>=1&&!reduced?"hidden":"visible";n.classList.toggle("show",k>.5)}
+var k=reduced?(b<e0?1:0):Math.min(1,Math.max(0,(s0-b)/(s0-e0)));if(!reduced)o.style.opacity=1-k;o.style.visibility=k>=1&&!reduced?"hidden":"visible";n.classList.toggle("scrolled",k>.5)}
 addEventListener("scroll",function(){if(!t){t=1;requestAnimationFrame(up)}},{passive:true});addEventListener("resize",up);up()}
 function project(d){var q=new URLSearchParams(location.search).get("p"),L=d.projects,i=L.findIndex(function(p){return p.slug===q}),b=$("pj");
 if(i<0){b.append(el("h1","Project not found","pg"),link("Back to selected work","index.html#work"));return}
