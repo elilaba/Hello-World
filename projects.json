@@ -43,28 +43,61 @@
       "title": "Full Asian",
       "year": 2026,
       "role": "DoP",
-      "image": "images/heavy-water/1.jpg",
+      "image": "images/full-asian/1.jpg",
       "description": "Narrative, Short Film",
       "stills": [
-        "images/heavy-water/1.jpg",
-        "images/heavy-water/2.jpg",
-        "images/heavy-water/3.jpg",
-        "images/heavy-water/4.jpg"
-      ]
+        "images/full-asian/1.jpg",
+        "images/full-asian/2.jpg",
+        "images/full-asian/3.jpg",
+        "images/full-asian/4.jpg",
+        "images/full-asian/5.jpg",
+        "images/full-asian/6.jpg",
+        "images/full-asian/7.jpg",
+        "images/full-asian/8.jpg",
+        "images/full-asian/9.jpg",
+        "images/full-asian/10.jpg",
+        "images/full-asian/11.jpg",
+        "images/full-asian/12.jpg",
+        "images/full-asian/13.jpg",
+        "images/full-asian/14.jpg",
+        "images/full-asian/15.jpg",
+        "images/full-asian/16.jpg",
+        "images/full-asian/17.jpg",
+        "images/full-asian/18.jpg",
+        "images/full-asian/19.jpg",
+        "images/full-asian/20.jpg"
+      ],
+      "ar": 2.38
     },
     {
       "slug": "first-break",
       "title": "First Break",
       "year": 2025,
       "role": "DoP",
-      "image": "images/night-shift/1.jpg",
+      "image": "images/first-break/1.jpg",
       "description": "Narrative, Short Film",
       "stills": [
-        "images/night-shift/1.jpg",
-        "images/night-shift/2.jpg",
-        "images/night-shift/3.jpg",
-        "images/night-shift/4.jpg"
-      ]
+        "images/first-break/1.jpg",
+        "images/first-break/2.jpg",
+        "images/first-break/3.jpg",
+        "images/first-break/4.jpg",
+        "images/first-break/5.jpg",
+        "images/first-break/6.jpg",
+        "images/first-break/7.jpg",
+        "images/first-break/8.jpg",
+        "images/first-break/9.jpg",
+        "images/first-break/10.jpg",
+        "images/first-break/11.jpg",
+        "images/first-break/12.jpg",
+        "images/first-break/13.jpg",
+        "images/first-break/14.jpg",
+        "images/first-break/15.jpg",
+        "images/first-break/16.jpg",
+        "images/first-break/17.jpg",
+        "images/first-break/18.jpg",
+        "images/first-break/19.jpg"
+      ],
+      "ar": 1.85
     },
     {
       "slug": "life-in-the-digital-age",
@@ -102,7 +135,7 @@
         "images/apple-pie/12.jpg",
         "images/apple-pie/13.jpg"
       ],
-      "ar": 1.66
+      "ar": 1.67
     },
     {
       "slug": "twist-of-fate",
