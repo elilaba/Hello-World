@@ -151,14 +151,27 @@
       "title": "Twist of Fate",
       "year": 2024,
       "role": "DoP",
-      "image": "images/the-long-winter/1.jpg",
+      "image": "images/twist-of-fate/1.jpg",
       "description": "Narrative, Short Film",
       "stills": [
-        "images/the-long-winter/1.jpg",
-        "images/the-long-winter/2.jpg",
-        "images/the-long-winter/3.jpg",
-        "images/the-long-winter/4.jpg"
-      ]
+        "images/twist-of-fate/1.jpg",
+        "images/twist-of-fate/2.jpg",
+        "images/twist-of-fate/3.jpg",
+        "images/twist-of-fate/4.jpg",
+        "images/twist-of-fate/5.jpg",
+        "images/twist-of-fate/6.jpg",
+        "images/twist-of-fate/7.jpg",
+        "images/twist-of-fate/8.jpg",
+        "images/twist-of-fate/9.jpg",
+        "images/twist-of-fate/10.jpg",
+        "images/twist-of-fate/11.jpg",
+        "images/twist-of-fate/12.jpg",
+        "images/twist-of-fate/13.jpg",
+        "images/twist-of-fate/14.jpg",
+        "images/twist-of-fate/15.jpg",
+        "images/twist-of-fate/16.jpg"
+      ],
+      "ar": 1.78
     },
     {
       "slug": "a-prayer-for-the-prodigal-son",
