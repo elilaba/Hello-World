@@ -10,20 +10,7 @@
     "imdb": "https://www.imdb.com/name/nm14725095/"
   },
   "projects": [
-    {
-      "slug": "larry's-lids",
-      "title": "Larry's Lids",
-      "year": 2026,
-      "role": "Short film, DoP",
-      "image": "images/salt-line/1.jpg",
-      "description": "Narrative, Short Film",
-      "stills": [
-        "images/salt-line/1.jpg",
-        "images/salt-line/2.jpg",
-        "images/salt-line/3.jpg",
-        "images/salt-line/4.jpg"
-      ]
-    },
+    
     {
       "slug": "new-dawn",
       "title": "New Dawn",
