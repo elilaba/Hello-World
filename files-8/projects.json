@@ -1,0 +1,185 @@
+{
+  "site": {
+    "name": "Eli Laba",
+    "role": "Cinematographer",
+    "reel": "https://vimeo.com/",
+    "about": [
+      "Eli Laba is a Vancouver BC based Director of Photography with an extensive portfolio of festival selected narrative short films. His experience also includes Documentary and Commercial work."
+    ],
+    "email": "elilaba03@gmail.com",
+    "imdb": "https://www.imdb.com/name/nm14725095/"
+  },
+  "projects": [
+    {
+      "slug": "larry's-lids",
+      "title": "Larry's Lids",
+      "year": 2026,
+      "role": "Short film, DoP",
+      "image": "images/salt-line/1.jpg",
+      "description": "Narrative, Short Film",
+      "stills": [
+        "images/salt-line/1.jpg",
+        "images/salt-line/2.jpg",
+        "images/salt-line/3.jpg",
+        "images/salt-line/4.jpg"
+      ]
+    },
+    {
+      "slug": "new-dawn",
+      "title": "New Dawn",
+      "year": 2026,
+      "role": "DoP",
+      "image": "images/salt-line/1.jpg",
+      "description": "Mockumentary, Short Film",
+      "stills": [
+        "images/salt-line/1.jpg",
+        "images/salt-line/2.jpg",
+        "images/salt-line/3.jpg",
+        "images/salt-line/4.jpg"
+      ]
+    },
+    {
+      "slug": "full-asian",
+      "title": "Full Asian",
+      "year": 2026,
+      "role": "DoP",
+      "image": "images/full-asian/1.jpg",
+      "description": "Narrative, Short Film",
+      "stills": [
+        "images/full-asian/1.jpg",
+        "images/full-asian/2.jpg",
+        "images/full-asian/3.jpg",
+        "images/full-asian/4.jpg",
+        "images/full-asian/5.jpg",
+        "images/full-asian/6.jpg",
+        "images/full-asian/7.jpg",
+        "images/full-asian/8.jpg",
+        "images/full-asian/9.jpg",
+        "images/full-asian/10.jpg",
+        "images/full-asian/11.jpg",
+        "images/full-asian/12.jpg",
+        "images/full-asian/13.jpg",
+        "images/full-asian/14.jpg",
+        "images/full-asian/15.jpg",
+        "images/full-asian/16.jpg",
+        "images/full-asian/17.jpg",
+        "images/full-asian/18.jpg",
+        "images/full-asian/19.jpg",
+        "images/full-asian/20.jpg",
+        "images/full-asian/21.jpg",
+        "images/full-asian/22.jpg"
+      ],
+      "ar": 2.38
+    },
+    {
+      "slug": "first-break",
+      "title": "First Break",
+      "year": 2025,
+      "role": "DoP",
+      "image": "images/first-break/1.jpg",
+      "description": "Narrative, Short Film",
+      "stills": [
+        "images/first-break/1.jpg",
+        "images/first-break/2.jpg",
+        "images/first-break/3.jpg",
+        "images/first-break/4.jpg",
+        "images/first-break/5.jpg",
+        "images/first-break/6.jpg",
+        "images/first-break/7.jpg",
+        "images/first-break/8.jpg",
+        "images/first-break/9.jpg",
+        "images/first-break/10.jpg",
+        "images/first-break/11.jpg",
+        "images/first-break/12.jpg",
+        "images/first-break/13.jpg",
+        "images/first-break/14.jpg",
+        "images/first-break/15.jpg",
+        "images/first-break/16.jpg",
+        "images/first-break/17.jpg",
+        "images/first-break/18.jpg",
+        "images/first-break/19.jpg"
+      ],
+      "ar": 1.85
+    },
+    {
+      "slug": "life-in-the-digital-age",
+      "title": "Life in the Digital Age",
+      "year": 2025,
+      "role": "DoP",
+      "image": "images/harbour/1.jpg",
+      "description": "Narrative, Short Film",
+      "stills": [
+        "images/harbour/1.jpg",
+        "images/harbour/2.jpg",
+        "images/harbour/3.jpg",
+        "images/harbour/4.jpg"
+      ]
+    },
+    {
+      "slug": "apple-pie",
+      "title": "Apple Pie",
+      "year": 2025,
+      "role": "DoP",
+      "image": "images/apple-pie/1.jpg",
+      "description": "Narrative, Short Film",
+      "stills": [
+        "images/apple-pie/1.jpg",
+        "images/apple-pie/2.jpg",
+        "images/apple-pie/3.jpg",
+        "images/apple-pie/4.jpg",
+        "images/apple-pie/5.jpg",
+        "images/apple-pie/6.jpg",
+        "images/apple-pie/7.jpg",
+        "images/apple-pie/8.jpg",
+        "images/apple-pie/9.jpg",
+        "images/apple-pie/10.jpg",
+        "images/apple-pie/11.jpg",
+        "images/apple-pie/12.jpg",
+        "images/apple-pie/13.jpg"
+      ],
+      "ar": 1.67
+    },
+    {
+      "slug": "twist-of-fate",
+      "title": "Twist of Fate",
+      "year": 2024,
+      "role": "DoP",
+      "image": "images/the-long-winter/1.jpg",
+      "description": "Narrative, Short Film",
+      "stills": [
+        "images/the-long-winter/1.jpg",
+        "images/the-long-winter/2.jpg",
+        "images/the-long-winter/3.jpg",
+        "images/the-long-winter/4.jpg"
+      ]
+    },
+    {
+      "slug": "a-prayer-for-the-prodigal-son",
+      "title": "A Prayer for the Prodigal Son",
+      "year": 2024,
+      "role": "DoP",
+      "image": "images/the-long-winter/1.jpg",
+      "description": "Narrative, Short Film",
+      "stills": [
+        "images/the-long-winter/1.jpg",
+        "images/the-long-winter/2.jpg",
+        "images/the-long-winter/3.jpg",
+        "images/the-long-winter/4.jpg"
+      ]
+    },
+    {
+      "slug": "vancity-rockers",
+      "title": "Vancity Rockers",
+      "year": 2023,
+      "role": "DoP",
+      "image": "images/the-long-winter/1.jpg",
+      "description": "Documentary, Short Film",
+      "stills": [
+        "images/the-long-winter/1.jpg",
+        "images/the-long-winter/2.jpg",
+        "images/the-long-winter/3.jpg",
+        "images/the-long-winter/4.jpg"
+      ]
+    }
+  ]
+}
