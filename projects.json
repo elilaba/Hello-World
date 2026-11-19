@@ -10,7 +10,6 @@
     "imdb": "https://www.imdb.com/name/nm14725095/"
   },
   "projects": [
-    
     {
       "slug": "new-dawn",
       "title": "New Dawn",
@@ -160,4 +159,6 @@
         "images/twist-of-fate/15.jpg",
         "images/twist-of-fate/16.jpg"
       ]
-     
+    }
+  ]
+}
