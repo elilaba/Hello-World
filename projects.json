@@ -159,36 +159,5 @@
         "images/twist-of-fate/14.jpg",
         "images/twist-of-fate/15.jpg",
         "images/twist-of-fate/16.jpg"
-      ],
-      "ar": 1.78
-    },
-    {
-      "slug": "a-prayer-for-the-prodigal-son",
-      "title": "A Prayer for the Prodigal Son",
-      "year": 2024,
-      "role": "DoP",
-      "image": "images/the-long-winter/1.jpg",
-      "description": "Narrative, Short Film",
-      "stills": [
-        "images/the-long-winter/1.jpg",
-        "images/the-long-winter/2.jpg",
-        "images/the-long-winter/3.jpg",
-        "images/the-long-winter/4.jpg"
       ]
-    },
-    {
-      "slug": "vancity-rockers",
-      "title": "Vancity Rockers",
-      "year": 2023,
-      "role": "DoP",
-      "image": "images/the-long-winter/1.jpg",
-      "description": "Documentary, Short Film",
-      "stills": [
-        "images/the-long-winter/1.jpg",
-        "images/the-long-winter/2.jpg",
-        "images/the-long-winter/3.jpg",
-        "images/the-long-winter/4.jpg"
-      ]
-    }
-  ]
-}
+     
